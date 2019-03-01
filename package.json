@@ -1,0 +1,45 @@
+{
+  "name": "lemons-loading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --mode development",
+    "transpile": "babel src -d dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lemons-Yang/lemons-loading.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lemons-Yang/lemons-loading/issues"
+  },
+  "homepage": "https://github.com/Lemons-Yang/lemons-loading#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^2.1.0",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.1"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  }
+}
